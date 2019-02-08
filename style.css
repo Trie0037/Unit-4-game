@@ -1,0 +1,54 @@
+body {
+    height: 100%;
+    background-color: rgb(234, 0, 255);
+    margin: auto;
+}
+
+.container {
+    padding: 15px;
+}
+
+.jumbotron {
+    background-image: url("./assets/css/images/image-2.jpg"); 
+    opacity: 1.0;
+    color:rgb(234, 0, 255);
+    margin: auto;
+    /* padding-top: 15px; */
+}
+
+.box {
+    height: 100%;
+    padding: 25px;
+}
+
+#crystals {
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background: rgb(234, 0, 255);
+    padding: 10px; 
+}
+
+ h2 {
+    color: rgb(234, 0, 255);
+}
+
+#para {
+    color:palevioletred;
+}
+
+#crystals img {
+    padding: 15px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 8px;
+  }
+  

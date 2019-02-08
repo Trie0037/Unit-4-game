@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Crystals</title>
+  <head>
     <!-- Bootstrap/Css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <title>Crystals</title>
 
-</head>
-
-<header>
-
-    <div class="jumbotron">
-        <h1 style="font-size: 40px">Crystals Collector!</h1>
-        <p>
-            <h2>Instructions: </h2>
-            <div>There will be four crystals displayed as buttons on the page.</div>
-            <div>The player will be shown a random number at the start of the game.</div>
-            <div>When the player clicks on a crystal, it will add a specific amount of points to the player's total score.</div>
-            <div>Your game will hide this amount until the player clicks a crystal. When they do click one, update the player's
-                score counter.</div>
-            <div>The player wins if their total score matches the random number from the beginning of the game. The player loses
-                if their score goes above the random number.</div>
-            <div>The game restarts whenever the player wins or loses.</div>
-            <h3>Click start to get Started!</h3>
-            <input type="button" id="reset" class="btn btn-primary btn-lg" style="cursor:pointer; margin-left: 10px; font-size:18px;"
-                value="Start game / Reset Game">
-            </a>
-        </p>
-
-    </div>
-
-</header>
+  </head>
 
 <body>
 
-        <span id="number"></span>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="jumbotron" style="padding: 15px;">
+                    <h1 style="font-size: 40px; text-align: center; color:rgb(234, 0, 255);">Crystals Collector</h1>
+                      <h2>Instructions:</h2>
+                      
+                        <p id="para" style="font-size: 18px;">There will be four crystals displayed as buttons on the page.
+                        The player will be shown a random number at the start of the game.
+                        When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
+                        Your game will hide this amount until the player clicks a crystal. When they do click one, update the player's
+                            score counter.
+                        The player wins if their total score matches the random number from the beginning of the game. The player loses
+                            if their score goes above the random number.
+                        The game restarts whenever the player wins or loses.</p>
+                      <h3>Click start to get Started!</h3>
+                        <input type="button" id="reset" class="btn btn-primary btn-lg" style="cursor:pointer; margin-left: 10px; font-size:18px;"
+                            value="Start game / Reset Game"></a>
+                </div>
+                    
+            
+                </div>
+            </div>
+     </div>
+            
+     <div class="box">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="number"></div>
+                <div id="luckyNumber" style="text-align: center;"><h3>The Lucky Number you will be trying to guess must add up to 21!</h3></div>
+                <br>
+                <div id="yourGuess" style="text-align: center; font-size: 20px; color:aliceblue;"></div>
+                <br>
+                <div id="crystals"></div>
+                <br>
+            </div>
+            </div>
+       </div>
 
-        <div id="luckyNumber"><h3>The Lucky Number you will be trying to guess must add up to 21!</h3></div>
-
-        <span id="yourGuess"></span>
-
-        <div id="crystals"></div>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-    
-    </div>
-
-    </script>
-<footer>
-    Copyright © Justin Trieschmann
-</footer>
-
+       <br>
+     
+        <footer>
+             Copyright © Justin Trieschmann
+        </footer>
 </body>
-
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+       <script type="text/javascript" src="game.js"></script>
 
 </html>
