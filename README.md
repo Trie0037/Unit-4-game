@@ -1,4 +1,4 @@
 # unit-4-game
 https://trie0037.github.io/Unit-4-game/
-![crystals](https://user-images.githubusercontent.com/38965016/45910290-a2148800-bdcd-11e8-8161-44780cf44ec2.png)
+![image](https://user-images.githubusercontent.com/38965016/52460686-33905680-2b31-11e9-8474-8b8622aa379a.png)
 
