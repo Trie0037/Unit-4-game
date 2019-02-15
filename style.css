@@ -1,54 +1,52 @@
 body {
-    height: 100%;
-    background-color: rgb(234, 0, 255);
-    margin: auto;
+  height: 100%;
+  background-color: rgb(69, 129, 182);
+  margin: auto;
 }
 
 .container {
-    padding: 15px;
+  padding: 35px;
 }
 
 .jumbotron {
-    background-image: url("./assets/css/images/image-2.jpg"); 
-    opacity: 1.0;
-    color:rgb(234, 0, 255);
-    margin: auto;
-    /* padding-top: 15px; */
+  background-image: url("./assets/css/images/image-2.jpg");
+  opacity: 1;
+  color: rgb(253, 250, 251);
+  margin: auto;
 }
 
 .box {
-    height: 100%;
-    padding: 25px;
+  height: 100%;
+  padding: 25px;
 }
 
 #crystals {
-    margin: auto;
-    margin-bottom: 20px;
-    text-align: center;
-    background: rgb(234, 0, 255);
-    padding: 10px; 
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgb(69, 129, 182);
+  padding: 5px;
 }
 
- h2 {
-    color: rgb(234, 0, 255);
+h2 {
+  color: rgb(69, 129, 182);
 }
 
 #para {
-    color:palevioletred;
+  color: rgb(253, 250, 251);
 }
 
 #crystals img {
-    padding: 15px;
+  padding: 12px;
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-    color: black;
-    text-align: center;
-    padding: 8px;
-  }
-  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: black;
+  text-align: center;
+  padding: 8px;
+}
